@@ -1,4 +1,19 @@
 @charset "utf-8";
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+	margin: 0;
+}
+
 table, td {
 	background-color: #FFF;
 	border: 3px solid black;
@@ -6,8 +21,9 @@ table, td {
 }
 
 table {
+	width: 50vw;
+	height: 98vh;
 	position: relative;
-	left: 396px;
 }
 
 .red {
