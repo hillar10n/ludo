@@ -26,6 +26,14 @@ table {
 	position: relative;
 }
 
+@media screen and (max-width: 600px) {
+	table {
+		width: 50vw;
+		height: 50vh;
+		position: relative;
+	}
+}
+
 .red {
 	background-color: #F00;
 	border: none;
@@ -164,12 +172,4 @@ table {
 
 #bluep {
 	top: 1.2%;
-}
-
-@media screen and (max-width: 600px) {
-	table {
-		width: 50vw;
-		height: 50vh;
-		position: relative;
-	}
 }
