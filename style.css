@@ -26,11 +26,151 @@ table {
 	position: relative;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
 	table {
 		width: 50vw;
 		height: 50vh;
 		position: relative;
+	}
+
+	.red {
+		background-color: #F00;
+		border: none;
+	}
+	
+	.red2 {
+		background-color: #F00;
+	}
+	
+	.blue {
+		background-color: #00F;
+		border: none;
+	}
+	
+	.blue2 {
+		background-color: #00F;
+	}
+	
+	.yellow {
+		background-color: #FF0;
+		border: none;
+	}
+	
+	.yellow2 {
+		background-color: #FF0;
+	}
+	
+	.green {
+		background-color: #00A400;
+		border: none;
+	}
+	
+	.green2 {
+		background-color: #00A400;
+	}
+	
+	#arrw1, #arrw2, #arrw3, #arrw4, #arrw5, #arrw6, #arrw7, #arrw8, #arrw9, #arrw10, #arrw11, #arrw {
+		position: absolute;
+		width: 5%;
+		height: 1.3%;
+	}
+	
+	#arrw1 {
+		right: 43%;
+		top: 39%;
+	}
+	
+	#arrw2 {
+		right: 44.5%;
+		top: 20%;
+	}
+	
+	#arrw3 {
+		right: 47.8%;
+		top: 7%;
+	}
+	
+	#arrw4 {
+		right: 25.2%;
+		top: 49%;
+	}
+	
+	#arrw5 {
+		right: 29.4%;
+		top: 55.4%;
+	}
+	
+	#arrw6 {
+		right: 42.8%;
+		bottom: 40%;
+	}
+	
+	#arrw7 {
+		bottom: 7%;
+		right: 47.8%;
+	}
+	
+	#arrw8 {
+		bottom: 20.5%;
+		left: 44.2%;
+	}
+	
+	#arrw9 {
+		left: 42.5%;
+		bottom: 40%;
+	}
+	
+	#arrw10 {
+		left: 26%;
+		top: 49%;
+	}
+	
+	#arrw11 {
+		left: 32.5%;
+		top: 42.7%;
+	}
+	
+	#arrw {
+		top: 39%;
+		left: 42.5%;
+	}
+	
+	#mid {
+		position: absolute;
+		top: 40%;
+		left: 45.05%;
+		width: 9.5%;
+		height: 19.4%;
+	}
+	
+	#greenp, #redp, #bluep, #yellowp {
+		position: absolute;
+		width: 19.9%;
+		height: 39%;
+	}
+	
+	#greenp, #yellowp {
+		bottom: 1.5%;
+	}
+	
+	#greenp, #bluep {
+		right: 25.2%;
+	}
+	
+	#yellowp {
+		width: 19.5%;
+		left: 25.3%;
+	}
+	
+	#redp {
+		top: 1.5%;
+		width: 19.4%;
+		left: 25.3%;
+		height: 38.3%;
+	}
+	
+	#bluep {
+		top: 1.2%;
 	}
 }
 
