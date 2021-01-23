@@ -168,11 +168,12 @@ table {
 
 /***** On small devices****/
 /*     */
-@media screen and (max-width:850px) {
+@media screen and (max-width:900px) {
 	table {
 		width: 70vw;
 		height: 80vh;
 	}
+	
 	#arrw1 {
 		right: 41%;
 		top: 41.1%;
