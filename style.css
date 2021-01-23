@@ -20,7 +20,7 @@ table, td {
 	border-collapse: collapse;
 }
 
-table {
+/* table {
 	width: 50vw;
 	height: 90vh;
 	position: relative;
@@ -164,10 +164,10 @@ table {
 
 #bluep {
 	top: 1.2%;
-}
+} */
 
 
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
 	table {
 		width: 50vw;
 		height: 50vh;
