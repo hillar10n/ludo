@@ -21,8 +21,8 @@ table, td {
 }
 
 table {
-	width: 70vw;
-	height: 40vh;
+	width: 50vw;
+	height: 98vh;
 	position: relative;
 }
 
@@ -166,4 +166,9 @@ table {
 	top: 1.2%;
 }
 
-@media
+@media screen and (max-width:650px) {
+	table {
+		width: 70vw;
+		height: 40vh;
+	}
+  }
