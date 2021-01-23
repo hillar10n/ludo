@@ -165,3 +165,11 @@ table {
 #bluep {
 	top: 1.2%;
 }
+
+@media screen and (max-width: 600px) {
+	table {
+		width: 50vw;
+		height: 50vh;
+		position: relative;
+	}
+}
