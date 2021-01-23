@@ -170,8 +170,8 @@ table {
 /*     */
 @media screen and (max-width:415px) {
 	table {
-		width: 70vw;
-		height: 80vh;
+		width: 50vw;
+		height: 40vh;
 	}
 	
 	#arrw1 {
